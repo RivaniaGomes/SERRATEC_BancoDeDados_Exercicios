@@ -55,3 +55,8 @@ where report_code = '513A63';
 select * from station_data
 where report_code in ('513A63', '1F8A7B', 'EF616A');
 
+--fltro com a funcao length
+select * from station_data
+where length(report_code) !6;
+
+--
